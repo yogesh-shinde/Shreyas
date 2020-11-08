@@ -8,12 +8,6 @@ from rest_framework import status
 # Create your views here.
 
 
-# class Company_View(APIView):
-
-#     def get(self, request):
-#         companyData = Mobile_Company.objects.all()
-#         return Response({'companydata': companyData})
-
 
 class Company_Create(APIView):
 
